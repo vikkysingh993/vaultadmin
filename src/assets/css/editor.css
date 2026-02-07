@@ -1,0 +1,5 @@
+/* CKEditor editable area height */
+.ck-editor__editable {
+  min-height: 350px;   /* jitni chaho */
+  max-height: 600px;   /* optional */
+}
