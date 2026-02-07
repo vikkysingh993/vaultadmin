@@ -67,7 +67,7 @@ export default function Header() {
       <div className="d-flex align-items-center justify-content-between">
         <Link to="/" className="logo d-flex align-items-center">
           <img src="/admin/assets/img/logo.png" alt="Logo" />
-          <span className="d-none d-lg-block">Admin Panel</span>
+          <span className="d-none d-lg-block"></span>
         </Link>
       </div>
 

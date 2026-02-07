@@ -196,7 +196,7 @@ const handleSubmit = async (e) => {
                     <td>
                       <button
                         className="btn btn-sm btn-warning me-2"
-                        onClick={() => handleEdit(p)}
+                        onClick={() => handleEdit(p.id)}
                       >
                         Edit
                       </button>

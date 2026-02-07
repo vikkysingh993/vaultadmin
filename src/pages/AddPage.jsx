@@ -62,7 +62,7 @@ const submit = async (e) => {
     }
   );
 
-  navigate("/admin/pages");
+  navigate("/pages");
 };
 
 

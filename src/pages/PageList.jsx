@@ -23,7 +23,7 @@ export default function PageList() {
     <>
       <h2>Static Pages</h2>
 
-      <Link to="/admin/pages/add" className="btn btn-primary mb-3">
+      <Link to="/pages/add" className="btn btn-primary mb-3">
         + Add Page
       </Link>
 
