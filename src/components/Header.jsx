@@ -11,7 +11,7 @@ export default function Header() {
   const hasLoaded = useRef(false);
 
   const [profileImg, setProfileImg] = useState(
-    "/assets/img/profile-img.jpg"
+    "/admin/assets/img/profile-img.jpg"
   );
   const [adminName, setAdminName] = useState("Admin");
 
@@ -55,7 +55,7 @@ export default function Header() {
   ====================== */
   const logout = () => {
     sessionStorage.clear();
-    navigate("/login");
+    navigate("/admin/login");
   };
 
   return (
@@ -66,7 +66,7 @@ export default function Header() {
       {/* LOGO */}
       <div className="d-flex align-items-center justify-content-between">
         <Link to="/" className="logo d-flex align-items-center">
-          <img src="/assets/img/logo.png" alt="Logo" />
+          <img src="/admin/assets/img/logo.png" alt="Logo" />
           <span className="d-none d-lg-block"></span>
         </Link>
       </div>
@@ -86,7 +86,7 @@ export default function Header() {
                 alt="Profile"
                 className="rounded-circle"
                 onError={(e) => {
-                  e.target.src = "/assets/img/profile-img.jpg";
+                  e.target.src = "/admin/assets/img/profile-img.jpg";
                 }}
               />
               <span className="d-none d-md-block dropdown-toggle ps-2">
