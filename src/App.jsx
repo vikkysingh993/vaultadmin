@@ -20,7 +20,7 @@ function App() {
   if (loading) return null;
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/admin">
       <Routes>
         {/* LOGIN */}
         <Route path="/login" element={<Login />} />
