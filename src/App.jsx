@@ -20,10 +20,12 @@ function App() {
   if (loading) return null;
 
   return (
+    
     <BrowserRouter basename="/">
+      
       <Routes>
         {/* LOGIN */}
-        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
 
         {/* ADMIN */}
         <Route

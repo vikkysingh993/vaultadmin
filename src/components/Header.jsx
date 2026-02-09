@@ -55,7 +55,7 @@ export default function Header() {
   ====================== */
   const logout = () => {
     sessionStorage.clear();
-    navigate("/");
+    navigate("/login");
   };
 
   return (
