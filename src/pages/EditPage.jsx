@@ -87,7 +87,7 @@ export default function EditPage() {
       Authorization: `Bearer ${sessionStorage.getItem("token")}`,
     },
   });
-    navigate("/admin/pages");
+    navigate("/pages");
   };
 
   return (

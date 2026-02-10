@@ -42,7 +42,7 @@ export default function PageList() {
               <td>{p.slug}</td>
               <td>
                 <Link
-                  to={`/admin/pages/edit/${p.id}`}
+                  to={`/pages/edit/${p.id}`}
                   className="btn btn-sm btn-warning me-2"
                 >
                   Edit
