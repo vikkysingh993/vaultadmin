@@ -110,9 +110,7 @@ export default function EditPage() {
           className="form-control mb-3"
           placeholder="Slug"
           value={form.slug}
-          onChange={(e) =>
-            setForm({ ...form, slug: e.target.value })
-          }
+          readonly
         />
 
         {/* CKEDITOR */}
